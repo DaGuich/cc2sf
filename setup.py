@@ -22,5 +22,10 @@ setup(
         'Topic :: Utilities'
     ],
     description='C struct to python struct',
-    long_description=read_file('README')
+    long_description=read_file('README'),
+    url='https://github.com/DaGuich/cc2sf',
+    packages=find_packages(exclude=['contrib',
+                                    'docs',
+                                    'tests*']),
+    python_requires='>=3'
 )
